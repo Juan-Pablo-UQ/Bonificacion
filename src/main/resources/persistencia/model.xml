@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.9" class="java.beans.XMLDecoder">
+ <object class="com.example.preparcialprueba3.model.Restaurante" id="Restaurante0">
+  <void property="listaClientes">
+   <void method="add">
+    <object class="com.example.preparcialprueba3.model.Clientes" id="Clientes0">
+     <void property="apellido">
+      <string>buitrago</string>
+     </void>
+     <void property="cedula">
+      <string>1094883247</string>
+     </void>
+     <void property="codigo">
+      <string>03</string>
+     </void>
+     <void property="nombre">
+      <string>Juan pablo</string>
+     </void>
+     <void property="telefono">
+      <string>3128638699</string>
+     </void>
+     <void property="tipoDocumento">
+      <object class="java.lang.Enum" method="valueOf">
+       <class>com.example.preparcialprueba3.model.TipoDocumento</class>
+       <string>CEDULA</string>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.example.preparcialprueba3.model.Clientes">
+     <void property="apellido">
+      <string>maya</string>
+     </void>
+     <void property="cedula">
+      <string>1094</string>
+     </void>
+     <void property="codigo">
+      <string>04</string>
+     </void>
+     <void property="nombre">
+      <string>lisa</string>
+     </void>
+     <void property="telefono">
+      <string>42424242424</string>
+     </void>
+     <void property="tipoDocumento">
+      <object class="java.lang.Enum" method="valueOf">
+       <class>com.example.preparcialprueba3.model.TipoDocumento</class>
+       <string>TARGETAIDENTIDAD</string>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaPedidos">
+   <void method="add">
+    <object class="com.example.preparcialprueba3.model.Pedidos">
+     <void property="clientes">
+      <object idref="Clientes0"/>
+     </void>
+     <void property="fecha">
+      <string>2023-10-10</string>
+     </void>
+     <void property="producto">
+      <object class="com.example.preparcialprueba3.model.Producto" id="Producto0">
+       <void property="codigo">
+        <string>123</string>
+       </void>
+       <void property="nombre">
+        <string>bandeja paisa</string>
+       </void>
+       <void property="precio">
+        <float>1200.0</float>
+       </void>
+      </object>
+     </void>
+     <void property="total">
+      <float>123.0</float>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaProductos">
+   <void method="add">
+    <object idref="Producto0"/>
+   </void>
+   <void method="add">
+    <object class="com.example.preparcialprueba3.model.Producto">
+     <void property="codigo">
+      <string>321</string>
+     </void>
+     <void property="nombre">
+      <string>arroz pollo</string>
+     </void>
+     <void property="precio">
+      <float>1200.0</float>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
